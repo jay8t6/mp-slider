@@ -25,7 +25,7 @@
         position: relative;
         overflow: hidden;
 
-        @apply --mp-slider-styling;
+        @apply --mp-slider-div;
       }
 
       #slider:hover {
@@ -42,12 +42,16 @@
         z-index: 10;
         opacity: 0;
         transition: all .4s ease-in-out;
+
+        @apply --mp-slider-pause-icon;
       }
 
       #slider #pauseIcon svg {
         fill: var(--pause-icon-background);
         stroke: var(--pause-icon-stroke-color);
         stroke-width: var(--pause-icon-stroker-width);
+
+        @apply --mp-slider-pause-icon-svg;
       }
 
       #slider > ::slotted(div) {
