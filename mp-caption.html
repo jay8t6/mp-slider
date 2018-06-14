@@ -3,31 +3,31 @@
 <dom-module id="mp-caption">
   <template>
     <style>
-        #caption {
-          width: 100%;
-          background: var(--caption-background);
-          padding: 5px 20px;
-          position: absolute;
-          bottom: 0;
-          box-sizing: border-box;
-          transition: all 2s linear;
-        }
+      #caption {
+        width: 100%;
+        background: var(--caption-background);
+        padding: 5px 20px;
+        position: absolute;
+        bottom: 0;
+        box-sizing: border-box;
+        transition: all 2s linear;
+      }
 
-        #caption h3, #caption p {
-          color: var(--white-color);
-        }
+      #caption h3, #caption p {
+        color: var(--white-color);
+      }
 
-        #caption h3 {
-          font-size: 20px;
-          margin: 10px 0;
-          padding: 0;
-        }
+      #caption h3 {
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 0;
+      }
 
-        #caption p {
-          font-size: 14px;
-          margin: 5px;
-          padding: 5px 0;
-        }
+      #caption p {
+        font-size: 14px;
+        margin: 5px;
+        padding: 5px 0;
+      }
     </style>
 
     <div id="caption">
@@ -43,10 +43,10 @@
       }
 
       static get properties() {
-          return {
-            sliderHeader: String,
-            sliderContent: String,
-          }
+        return {
+          sliderHeader: String,
+          sliderContent: String,
+        }
       }
     }
 
