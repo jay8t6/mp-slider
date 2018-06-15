@@ -7,26 +7,35 @@
         width: 100%;
         background: var(--caption-background);
         padding: 5px 20px;
-        position: absolute;
         bottom: 0;
         box-sizing: border-box;
         transition: all 2s linear;
+
+        @apply --mp-caption-div;
       }
 
       #caption h3, #caption p {
         color: var(--white-color);
+
+        @apply --mp-caption-h3-p;
       }
 
       #caption h3 {
         font-size: 20px;
         margin: 10px 0;
         padding: 0;
+
+        @apply --mp-caption-h3;
       }
 
       #caption p {
         font-size: 14px;
         margin: 5px;
-        padding: 5px 0;
+        position: absolute;
+        padding-top: 312px;
+        color: #FFFFFF;
+
+        @apply --mp-caption-paragraph;
       }
     </style>
 
